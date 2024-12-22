@@ -38,22 +38,27 @@ function handlefile(event)
   reader.readAsArrayBuffer(file);
 }
 
-function send()
-{
-  setstatus(true)
-  axios.post("http://localhost:5000/sendemail",{msg:msg,emailList:+emailList})
-  .then(function(data)
-  {
-    if(data.data == true)
-    {
-      alert("Email sent Successfully")
-      setstatus(false)
-    }
-    else{
-      alert("Faild")
-      
-    }
-  }) 
+function send() {
+  setstatus(true);
+
+  axios.post("http://localhost:5000/sendemail", { msg: msg, emailList: emailList })
+    .then(function(response) {
+   console.log("Response:", response);
+      console.log("Response Data:", response.data);
+
+      if (response.data === true) {
+        alert("Email sent successfully");
+      } else {
+        alert("Failed to send email");
+      }
+    })
+    .catch(function(error) {
+      console.error("Error:", error);
+      alert("An error occurred while sending the email");
+    })
+    .finally(function() {
+      setstatus(false);
+     });
 }
 
   return (
