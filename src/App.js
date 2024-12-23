@@ -41,7 +41,7 @@ function handlefile(event)
 function send() {
   setstatus(true);
 
-  axios.post("https://bulkmail-backend-1.vercel.app/sendemail", { msg: msg, emailList: emailList })
+  axios.post("https://bulkmail-backend-1-x9gu.onrender.com/sendemail", { msg: msg, emailList: emailList })
     .then(function(response) {
    console.log("Response:", response);
       console.log("Response Data:", response.data);
