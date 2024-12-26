@@ -1,3 +1,25 @@
+🚀 Excited to Share My Latest Project: Bulkmail App! 🌟
+
+I've successfully completed a Bulkmail project using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This app streamlines email communication by allowing users to send bulk emails efficiently, manage contact lists, and customize email templates—all through a user-friendly interface.
+
+Key Features:
+
+✅ User authentication for secure access
+✅ Contact management and segmentation
+✅Bulk email sending with real-time status updates
+✅Dynamic email templates
+✅ Integration with email-sending APIs
+
+This project has strengthened my skills in full-stack development, including backend API design, frontend UI implementation, and database management.
+
+Looking forward to applying these skills to new challenges and opportunities!
+
+🔗BulkMail App Link:https://bulkmail-frontend-nt7r.onrender.com/
+
+
+#MERNStack #FullStackDevelopment #BulkmailProject #WebDevelopment #CodingJourney #ReactJS #NodeJS #MongoDB
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
